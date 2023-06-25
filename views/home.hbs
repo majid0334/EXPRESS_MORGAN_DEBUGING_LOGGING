@@ -1,0 +1,23 @@
+<h2>Lärostigar</h2>
+<div class="item-grid">
+  {{#each learningPaths}}
+    <article class="item">
+      <div>
+        <h2><b>{{title}}</b></h2>
+        <p>Uppskattad tid:<i>{{estimatedHours}}</i></p>
+        <p><i>{{description}}</i></p>
+        <ul>
+          {{#if ../user}}
+            <form method="post"  action="/profile/start-path/{{_id}}">
+              <button type="submit"class="btn">Starta</button>
+            </form>
+            {{else}}
+            <p>
+                <a href="/login">Logga in för att</a> om du vill starta lärorstig
+            </p>
+          {{/if}}
+        </ul>
+      </div>
+    </article>
+  {{/each}}
+</div>

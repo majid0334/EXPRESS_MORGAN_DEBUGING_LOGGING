@@ -1,0 +1,15 @@
+<h2>En Användare</h2>
+{{#if paths}}
+  <p>Lista på alla lärostigar</p>
+  <ul>
+    {{#each paths}}
+      <li>
+        <b>{{learningPath.title}}</b>
+        <i>{{completedSteps}}/{{totalSteps}}({{progress}})</i>
+      </li>
+    {{/each}}
+
+  </ul>
+{{else}}
+  <p>Användaren har inte startat sin resa</p>
+{{/if}}
