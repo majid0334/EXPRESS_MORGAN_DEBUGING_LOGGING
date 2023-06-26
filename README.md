@@ -10,3 +10,6 @@ Currenlty it is server side rendering because ui is build with handlebars
 ![backend](https://github.com/majid0334/KodKampus_2.0/assets/113986626/82e80803-2d8a-4ae5-82bb-0b48718f7dc7)
 
 ![Skärmbild (44)](https://github.com/majid0334/KodKampus_2.0/assets/113986626/5008f5ae-97c2-4540-927a-5fdce8ac588e)
+
+
+![Skärmbild (45)](https://github.com/majid0334/KodKampus_2.0/assets/113986626/95b765d0-682c-45ad-8d8b-d7e3c81f824c)
